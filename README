@@ -1,0 +1,10 @@
+                j4backlight
+   
+Simple logarithmic-scale backlight controller for my laptop.
+Covers the full range of legal brightnesses. (In my case, from 1/852
+to 852/852.)
+
+Relies on the /sys/class/backlight/intel_backlight/ interface.
+
+Motivation: xbacklight only works on a 1-100 scale, and has no
+built-in logarithmic behavior.

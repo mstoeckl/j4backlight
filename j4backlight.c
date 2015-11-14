@@ -5,7 +5,7 @@
 
 const char* max_path = "/sys/class/backlight/intel_backlight/max_brightness";
 const char* target_path = "/sys/class/backlight/intel_backlight/brightness";
-const char* usage = "Usage: i3backlight + | i3backlight - | i3backlight [1..%d]\n";
+const char* usage = "Usage: j4backlight + | j4backlight - | j4backlight [1..%d]\n";
 
 const int steps = 30;
 
